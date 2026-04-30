@@ -25,6 +25,7 @@
     ├── confusion_matrix.png    # 最终模型混淆矩阵
     ├── weight_visualization.png # 第一层权重特征可视化
     └── error_analysis.png      # 预测错误样本分析图
+```
 
 ## 🚀 核心技术实现
 1. 纯 NumPy 框架实现完全不依赖 PyTorch 或 TensorFlow 等深度学习框架。手动推导并实现：前向与反向传播：基于链式法则实现三层神经网络。激活函数：支持 ReLU、Tanh 和 Sigmoid 的前馈计算与导数回传。优化器：实现带动量 (Momentum) 的 SGD，加速收敛并减少震荡。
